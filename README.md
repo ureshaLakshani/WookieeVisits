@@ -4,7 +4,7 @@
 
 ### Welcome! This is a descriptive journey through Star Wars canon universe.
 
-You can easily scroll through the planets and check the name the climate of the planet. If you need more information, tap on one planet. You can check the orbital period and gravity too.
+You can easily scroll through the planets and check the name and the climate of the planet. If you need more information, tap on one planet. You can check the orbital period and gravity too.
 
 
 Please watch the demo video
