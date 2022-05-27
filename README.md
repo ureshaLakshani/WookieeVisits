@@ -6,9 +6,9 @@ Explore planets
 
 Please watch the demo video.
 
-https://github.com/ureshaLakshani/Demo/blob/main/demo.gif
+![demo](https://github.com/ureshaLakshani/Demo/blob/main/demo.gif)
 
-![hippo](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
+
 
 
 Requirements
