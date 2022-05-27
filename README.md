@@ -5,7 +5,7 @@
 Welcome! 
 Explore planets
 
-Please watch the demo video.
+*Please watch the demo video*
 
 ![demo](https://github.com/ureshaLakshani/Demo/blob/main/demo.gif)
 
