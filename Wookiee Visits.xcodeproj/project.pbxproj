@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090B58102840D71D007D7480 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B580F2840D71D007D7480 /* Extentions.swift */; };
+		092FD9D12840EE3700373F2F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092FD9D02840EE3700373F2F /* Reachability.swift */; };
+		09C1595E283F80080029E8F8 /* planets.json in Resources */ = {isa = PBXBuildFile; fileRef = 09C1595D283F80080029E8F8 /* planets.json */; };
+		09C15963283FB44A0029E8F8 /* PlanetDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C15962283FB44A0029E8F8 /* PlanetDetailsVC.swift */; };
+		09C15965283FC3490029E8F8 /* PlanetDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C15964283FC3490029E8F8 /* PlanetDetailsVM.swift */; };
+		09DF438A283E580B00DAAB2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF4389283E580B00DAAB2D /* AppDelegate.swift */; };
+		09DF438C283E580B00DAAB2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF438B283E580B00DAAB2D /* SceneDelegate.swift */; };
+		09DF438E283E580B00DAAB2D /* PlanetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF438D283E580B00DAAB2D /* PlanetVC.swift */; };
+		09DF4391283E580B00DAAB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DF438F283E580B00DAAB2D /* Main.storyboard */; };
+		09DF4393283E580C00DAAB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DF4392283E580C00DAAB2D /* Assets.xcassets */; };
+		09DF4396283E580C00DAAB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DF4394283E580C00DAAB2D /* LaunchScreen.storyboard */; };
+		09DF43BF283E597100DAAB2D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF43BE283E597100DAAB2D /* NetworkManager.swift */; };
+		09DF43C2283E5BBC00DAAB2D /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF43C1283E5BBC00DAAB2D /* Planet.swift */; };
+		09DF43C5283E9D1500DAAB2D /* PlanetTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF43C3283E9D1500DAAB2D /* PlanetTVC.swift */; };
+		09DF43C6283E9D1500DAAB2D /* PlanetTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DF43C4283E9D1500DAAB2D /* PlanetTVC.xib */; };
+		09DF43C8283E9F8900DAAB2D /* PlanetVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF43C7283E9F8900DAAB2D /* PlanetVM.swift */; };
+		09DF43CA283EA5C000DAAB2D /* PlanetTVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF43C9283EA5C000DAAB2D /* PlanetTVM.swift */; };
+		09DF43CC283EA7E800DAAB2D /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF43CB283EA7E800DAAB2D /* Handlers.swift */; };
+		DC9CEE4F5E9FE06142E04B9B /* Pods_Wookiee_VisitsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6575CEE5C3E22E6229B10EC6 /* Pods_Wookiee_VisitsTests.framework */; };
+		ED38E6DEF116C78DA54B2296 /* Pods_Wookiee_Visits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0ED043B0792E67805DACA5 /* Pods_Wookiee_Visits.framework */; };
+		F8298F0B546CE31C90877AD9 /* Pods_Wookiee_Visits_Wookiee_VisitsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F314A30B5BE4A096A8404E0 /* Pods_Wookiee_Visits_Wookiee_VisitsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09DF439D283E580D00DAAB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DF437E283E580B00DAAB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DF4385283E580B00DAAB2D;
+			remoteInfo = test;
+		};
+		09DF43A7283E580D00DAAB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DF437E283E580B00DAAB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DF4385283E580B00DAAB2D;
+			remoteInfo = test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090B580F2840D71D007D7480 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		092FD9D02840EE3700373F2F /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		092FD9D22840FA2200373F2F /* Wookiee Visits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wookiee Visits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		092FD9D32840FA5500373F2F /* Wookiee VisitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wookiee VisitsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		092FD9D42840FA5500373F2F /* Wookiee VisitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wookiee VisitsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C1595D283F80080029E8F8 /* planets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = planets.json; path = "Wookiee Visits/Utilites/planets.json"; sourceTree = SOURCE_ROOT; };
+		09C15962283FB44A0029E8F8 /* PlanetDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailsVC.swift; sourceTree = "<group>"; };
+		09C15964283FC3490029E8F8 /* PlanetDetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailsVM.swift; sourceTree = "<group>"; };
+		09DF4389283E580B00DAAB2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09DF438B283E580B00DAAB2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09DF438D283E580B00DAAB2D /* PlanetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetVC.swift; sourceTree = "<group>"; };
+		09DF4390283E580B00DAAB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09DF4392283E580C00DAAB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DF4395283E580C00DAAB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09DF4397283E580C00DAAB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Wookiee Visits/SupportingFiles/Info.plist"; sourceTree = SOURCE_ROOT; };
+		09DF43BE283E597100DAAB2D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		09DF43C1283E5BBC00DAAB2D /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		09DF43C3283E9D1500DAAB2D /* PlanetTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTVC.swift; sourceTree = "<group>"; };
+		09DF43C4283E9D1500DAAB2D /* PlanetTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanetTVC.xib; sourceTree = "<group>"; };
+		09DF43C7283E9F8900DAAB2D /* PlanetVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetVM.swift; sourceTree = "<group>"; };
+		09DF43C9283EA5C000DAAB2D /* PlanetTVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTVM.swift; sourceTree = "<group>"; };
+		09DF43CB283EA7E800DAAB2D /* Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handlers.swift; sourceTree = "<group>"; };
+		1CE035822797C1BBB32A2435 /* Pods-Wookiee Visits-Wookiee VisitsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wookiee Visits-Wookiee VisitsUITests.release.xcconfig"; path = "Target Support Files/Pods-Wookiee Visits-Wookiee VisitsUITests/Pods-Wookiee Visits-Wookiee VisitsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F314A30B5BE4A096A8404E0 /* Pods_Wookiee_Visits_Wookiee_VisitsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wookiee_Visits_Wookiee_VisitsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8F6342C54850F978FA16BB /* Pods-Wookiee VisitsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wookiee VisitsTests.debug.xcconfig"; path = "Target Support Files/Pods-Wookiee VisitsTests/Pods-Wookiee VisitsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6575CEE5C3E22E6229B10EC6 /* Pods_Wookiee_VisitsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wookiee_VisitsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934CE3A7A4DA89437E4BEBE1 /* Pods-Wookiee VisitsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wookiee VisitsTests.release.xcconfig"; path = "Target Support Files/Pods-Wookiee VisitsTests/Pods-Wookiee VisitsTests.release.xcconfig"; sourceTree = "<group>"; };
+		963DAFFF7C425F33BF97F899 /* Pods-Wookiee Visits-Wookiee VisitsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wookiee Visits-Wookiee VisitsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wookiee Visits-Wookiee VisitsUITests/Pods-Wookiee Visits-Wookiee VisitsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B0ED043B0792E67805DACA5 /* Pods_Wookiee_Visits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wookiee_Visits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3267E15D22048890B5C46AE /* Pods-Wookiee Visits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wookiee Visits.release.xcconfig"; path = "Target Support Files/Pods-Wookiee Visits/Pods-Wookiee Visits.release.xcconfig"; sourceTree = "<group>"; };
+		AA7C19DEDB99E8F93177CF8A /* Pods-Wookiee Visits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wookiee Visits.debug.xcconfig"; path = "Target Support Files/Pods-Wookiee Visits/Pods-Wookiee Visits.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DF4383283E580B00DAAB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED38E6DEF116C78DA54B2296 /* Pods_Wookiee_Visits.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DF4399283E580D00DAAB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9CEE4F5E9FE06142E04B9B /* Pods_Wookiee_VisitsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DF43A3283E580D00DAAB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8298F0B546CE31C90877AD9 /* Pods_Wookiee_Visits_Wookiee_VisitsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C1595F283FB38F0029E8F8 /* PlanetDetails */ = {
+			isa = PBXGroup;
+			children = (
+				09C15962283FB44A0029E8F8 /* PlanetDetailsVC.swift */,
+				09C15964283FC3490029E8F8 /* PlanetDetailsVM.swift */,
+			);
+			path = PlanetDetails;
+			sourceTree = "<group>";
+		};
+		09C15960283FB39C0029E8F8 /* Planet */ = {
+			isa = PBXGroup;
+			children = (
+				09DF438D283E580B00DAAB2D /* PlanetVC.swift */,
+				09DF43C7283E9F8900DAAB2D /* PlanetVM.swift */,
+			);
+			path = Planet;
+			sourceTree = "<group>";
+		};
+		09C15966283FDBAA0029E8F8 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				09C1595D283F80080029E8F8 /* planets.json */,
+				09DF43CB283EA7E800DAAB2D /* Handlers.swift */,
+				090B580F2840D71D007D7480 /* Extentions.swift */,
+				092FD9D02840EE3700373F2F /* Reachability.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		09C15967283FDBD50029E8F8 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				09DF43C3283E9D1500DAAB2D /* PlanetTVC.swift */,
+				09DF43C9283EA5C000DAAB2D /* PlanetTVM.swift */,
+				09DF43C4283E9D1500DAAB2D /* PlanetTVC.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		09DF437D283E580B00DAAB2D = {
+			isa = PBXGroup;
+			children = (
+				09DF4388283E580B00DAAB2D /* Wookiee Visits */,
+				12FF700055600A4037C4D226 /* Pods */,
+				632A56FEF62B04C596875435 /* Frameworks */,
+				092FD9D22840FA2200373F2F /* Wookiee Visits.app */,
+				092FD9D32840FA5500373F2F /* Wookiee VisitsTests.xctest */,
+				092FD9D42840FA5500373F2F /* Wookiee VisitsUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		09DF4388283E580B00DAAB2D /* Wookiee Visits */ = {
+			isa = PBXGroup;
+			children = (
+				09DF43BC283E591500DAAB2D /* SupportingFiles */,
+				09C15966283FDBAA0029E8F8 /* Utilites */,
+				09DF43BD283E594E00DAAB2D /* Network */,
+				09DF43BB283E58F300DAAB2D /* StoryBoards */,
+				09C15967283FDBD50029E8F8 /* Xibs */,
+				09DF43BA283E58E300DAAB2D /* VC+VM */,
+				09DF43C0283E597D00DAAB2D /* Models */,
+			);
+			path = "Wookiee Visits";
+			sourceTree = "<group>";
+		};
+		09DF43BA283E58E300DAAB2D /* VC+VM */ = {
+			isa = PBXGroup;
+			children = (
+				09C15960283FB39C0029E8F8 /* Planet */,
+				09C1595F283FB38F0029E8F8 /* PlanetDetails */,
+			);
+			path = "VC+VM";
+			sourceTree = "<group>";
+		};
+		09DF43BB283E58F300DAAB2D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				09DF4394283E580C00DAAB2D /* LaunchScreen.storyboard */,
+				09DF438F283E580B00DAAB2D /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		09DF43BC283E591500DAAB2D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				09DF4397283E580C00DAAB2D /* Info.plist */,
+				09DF4392283E580C00DAAB2D /* Assets.xcassets */,
+				09DF438B283E580B00DAAB2D /* SceneDelegate.swift */,
+				09DF4389283E580B00DAAB2D /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		09DF43BD283E594E00DAAB2D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				09DF43BE283E597100DAAB2D /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		09DF43C0283E597D00DAAB2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09DF43C1283E5BBC00DAAB2D /* Planet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12FF700055600A4037C4D226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA7C19DEDB99E8F93177CF8A /* Pods-Wookiee Visits.debug.xcconfig */,
+				A3267E15D22048890B5C46AE /* Pods-Wookiee Visits.release.xcconfig */,
+				963DAFFF7C425F33BF97F899 /* Pods-Wookiee Visits-Wookiee VisitsUITests.debug.xcconfig */,
+				1CE035822797C1BBB32A2435 /* Pods-Wookiee Visits-Wookiee VisitsUITests.release.xcconfig */,
+				5B8F6342C54850F978FA16BB /* Pods-Wookiee VisitsTests.debug.xcconfig */,
+				934CE3A7A4DA89437E4BEBE1 /* Pods-Wookiee VisitsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		632A56FEF62B04C596875435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B0ED043B0792E67805DACA5 /* Pods_Wookiee_Visits.framework */,
+				2F314A30B5BE4A096A8404E0 /* Pods_Wookiee_Visits_Wookiee_VisitsUITests.framework */,
+				6575CEE5C3E22E6229B10EC6 /* Pods_Wookiee_VisitsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09DF4385283E580B00DAAB2D /* Wookiee Visits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DF43B0283E580D00DAAB2D /* Build configuration list for PBXNativeTarget "Wookiee Visits" */;
+			buildPhases = (
+				B8E9005F0C880CE0242C24C6 /* [CP] Check Pods Manifest.lock */,
+				09DF4382283E580B00DAAB2D /* Sources */,
+				09DF4383283E580B00DAAB2D /* Frameworks */,
+				09DF4384283E580B00DAAB2D /* Resources */,
+				44E41188DB40348E97DC3D60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wookiee Visits";
+			productName = test;
+			productReference = 092FD9D22840FA2200373F2F /* Wookiee Visits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09DF439B283E580D00DAAB2D /* Wookiee VisitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DF43B3283E580D00DAAB2D /* Build configuration list for PBXNativeTarget "Wookiee VisitsTests" */;
+			buildPhases = (
+				25CCCB3576BD7C360B9389CB /* [CP] Check Pods Manifest.lock */,
+				09DF4398283E580D00DAAB2D /* Sources */,
+				09DF4399283E580D00DAAB2D /* Frameworks */,
+				09DF439A283E580D00DAAB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DF439E283E580D00DAAB2D /* PBXTargetDependency */,
+			);
+			name = "Wookiee VisitsTests";
+			productName = testTests;
+			productReference = 092FD9D32840FA5500373F2F /* Wookiee VisitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09DF43A5283E580D00DAAB2D /* Wookiee VisitsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DF43B6283E580D00DAAB2D /* Build configuration list for PBXNativeTarget "Wookiee VisitsUITests" */;
+			buildPhases = (
+				D2F24BBF4396F03D85A8A8DE /* [CP] Check Pods Manifest.lock */,
+				09DF43A2283E580D00DAAB2D /* Sources */,
+				09DF43A3283E580D00DAAB2D /* Frameworks */,
+				09DF43A4283E580D00DAAB2D /* Resources */,
+				3F718BD29AF5ED85FA90FC1F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DF43A8283E580D00DAAB2D /* PBXTargetDependency */,
+			);
+			name = "Wookiee VisitsUITests";
+			productName = testUITests;
+			productReference = 092FD9D42840FA5500373F2F /* Wookiee VisitsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09DF437E283E580B00DAAB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					09DF4385283E580B00DAAB2D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					09DF439B283E580D00DAAB2D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 09DF4385283E580B00DAAB2D;
+					};
+					09DF43A5283E580D00DAAB2D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 09DF4385283E580B00DAAB2D;
+					};
+				};
+			};
+			buildConfigurationList = 09DF4381283E580B00DAAB2D /* Build configuration list for PBXProject "Wookiee Visits" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09DF437D283E580B00DAAB2D;
+			productRefGroup = 09DF437D283E580B00DAAB2D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DF4385283E580B00DAAB2D /* Wookiee Visits */,
+				09DF439B283E580D00DAAB2D /* Wookiee VisitsTests */,
+				09DF43A5283E580D00DAAB2D /* Wookiee VisitsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09DF4384283E580B00DAAB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DF4396283E580C00DAAB2D /* LaunchScreen.storyboard in Resources */,
+				09C1595E283F80080029E8F8 /* planets.json in Resources */,
+				09DF4393283E580C00DAAB2D /* Assets.xcassets in Resources */,
+				09DF4391283E580B00DAAB2D /* Main.storyboard in Resources */,
+				09DF43C6283E9D1500DAAB2D /* PlanetTVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DF439A283E580D00DAAB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DF43A4283E580D00DAAB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25CCCB3576BD7C360B9389CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wookiee VisitsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F718BD29AF5ED85FA90FC1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wookiee Visits-Wookiee VisitsUITests/Pods-Wookiee Visits-Wookiee VisitsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wookiee Visits-Wookiee VisitsUITests/Pods-Wookiee Visits-Wookiee VisitsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wookiee Visits-Wookiee VisitsUITests/Pods-Wookiee Visits-Wookiee VisitsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44E41188DB40348E97DC3D60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wookiee Visits/Pods-Wookiee Visits-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wookiee Visits/Pods-Wookiee Visits-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wookiee Visits/Pods-Wookiee Visits-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8E9005F0C880CE0242C24C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wookiee Visits-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F24BBF4396F03D85A8A8DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wookiee Visits-Wookiee VisitsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DF4382283E580B00DAAB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C15965283FC3490029E8F8 /* PlanetDetailsVM.swift in Sources */,
+				09DF43BF283E597100DAAB2D /* NetworkManager.swift in Sources */,
+				09C15963283FB44A0029E8F8 /* PlanetDetailsVC.swift in Sources */,
+				09DF438E283E580B00DAAB2D /* PlanetVC.swift in Sources */,
+				09DF438A283E580B00DAAB2D /* AppDelegate.swift in Sources */,
+				09DF43C5283E9D1500DAAB2D /* PlanetTVC.swift in Sources */,
+				09DF438C283E580B00DAAB2D /* SceneDelegate.swift in Sources */,
+				09DF43CA283EA5C000DAAB2D /* PlanetTVM.swift in Sources */,
+				090B58102840D71D007D7480 /* Extentions.swift in Sources */,
+				09DF43CC283EA7E800DAAB2D /* Handlers.swift in Sources */,
+				09DF43C8283E9F8900DAAB2D /* PlanetVM.swift in Sources */,
+				09DF43C2283E5BBC00DAAB2D /* Planet.swift in Sources */,
+				092FD9D12840EE3700373F2F /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DF4398283E580D00DAAB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DF43A2283E580D00DAAB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DF439E283E580D00DAAB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DF4385283E580B00DAAB2D /* Wookiee Visits */;
+			targetProxy = 09DF439D283E580D00DAAB2D /* PBXContainerItemProxy */;
+		};
+		09DF43A8283E580D00DAAB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DF4385283E580B00DAAB2D /* Wookiee Visits */;
+			targetProxy = 09DF43A7283E580D00DAAB2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09DF438F283E580B00DAAB2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DF4390283E580B00DAAB2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09DF4394283E580C00DAAB2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DF4395283E580C00DAAB2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09DF43AE283E580D00DAAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09DF43AF283E580D00DAAB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09DF43B1283E580D00DAAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7C19DEDB99E8F93177CF8A /* Pods-Wookiee Visits.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q346XJ3WAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wookiee Visits/SupportingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesr.WookieeVisits;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09DF43B2283E580D00DAAB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3267E15D22048890B5C46AE /* Pods-Wookiee Visits.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q346XJ3WAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wookiee Visits/SupportingFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesr.WookieeVisits;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09DF43B4283E580D00DAAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8F6342C54850F978FA16BB /* Pods-Wookiee VisitsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q346XJ3WAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesr.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wookiee Visits.app/Wookiee Visits";
+			};
+			name = Debug;
+		};
+		09DF43B5283E580D00DAAB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934CE3A7A4DA89437E4BEBE1 /* Pods-Wookiee VisitsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q346XJ3WAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesr.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wookiee Visits.app/Wookiee Visits";
+			};
+			name = Release;
+		};
+		09DF43B7283E580D00DAAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963DAFFF7C425F33BF97F899 /* Pods-Wookiee Visits-Wookiee VisitsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q346XJ3WAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesr.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = test;
+			};
+			name = Debug;
+		};
+		09DF43B8283E580D00DAAB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE035822797C1BBB32A2435 /* Pods-Wookiee Visits-Wookiee VisitsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q346XJ3WAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesr.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DF4381283E580B00DAAB2D /* Build configuration list for PBXProject "Wookiee Visits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DF43AE283E580D00DAAB2D /* Debug */,
+				09DF43AF283E580D00DAAB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DF43B0283E580D00DAAB2D /* Build configuration list for PBXNativeTarget "Wookiee Visits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DF43B1283E580D00DAAB2D /* Debug */,
+				09DF43B2283E580D00DAAB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DF43B3283E580D00DAAB2D /* Build configuration list for PBXNativeTarget "Wookiee VisitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DF43B4283E580D00DAAB2D /* Debug */,
+				09DF43B5283E580D00DAAB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DF43B6283E580D00DAAB2D /* Build configuration list for PBXNativeTarget "Wookiee VisitsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DF43B7283E580D00DAAB2D /* Debug */,
+				09DF43B8283E580D00DAAB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09DF437E283E580B00DAAB2D /* Project object */;
+}
