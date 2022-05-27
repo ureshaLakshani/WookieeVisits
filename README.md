@@ -2,10 +2,12 @@
 
 ##  Description
 
-Welcome! 
-Explore planets
+### Welcome! This is a descriptive journey through Star Wars canon universe.
 
-*Please watch the demo video*
+You can easily scroll through the planets and check the name the climate of the planet. If you need more information, tap on one planet. You can check the orbital period and gravity too.
+
+
+Please watch the demo video
 
 ![demo](https://github.com/ureshaLakshani/Demo/blob/main/demo.gif)
 
